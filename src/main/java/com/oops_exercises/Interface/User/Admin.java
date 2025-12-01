@@ -17,7 +17,8 @@ public class Admin implements User {
         this.role=role;
     }
 
-    @Override public void access() {
-        System.out.println("Admin has all access");
+    @Override
+    public void access() {
+        System.out.println(username+" has "+role);
     }
 }

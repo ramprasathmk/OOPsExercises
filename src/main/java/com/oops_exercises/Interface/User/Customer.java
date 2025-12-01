@@ -17,7 +17,8 @@ public class Customer implements User {
         this.address=address;
     }
 
-    @Override public void access() {
+    @Override
+    public void access() {
         System.out.println("Customer has access to "+address);
     }
 }
